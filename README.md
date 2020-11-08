@@ -24,7 +24,7 @@ Sök bland alla avsnitt och spela bästa träffen. Prova "dokumentär helikopter
 
 [Ladda ner Sök avsnitt][episode]
 
-[ekot]: https://github.com/svendahlstrand/sr-siri-shortcuts/raw/master/bin/Spela%20Ekot.shortcut
-[channel]: https://github.com/svendahlstrand/sr-siri-shortcuts/raw/master/bin/Spela%20kanal.shortcut
-[episode]: https://github.com/svendahlstrand/sr-siri-shortcuts/raw/master/bin/S%C3%B6k%20avsnitt.shortcut
+[ekot]: https://www.icloud.com/shortcuts/984aeafc53514063b0b4a2f2a7f630e0
+[channel]: https://www.icloud.com/shortcuts/0bf5c4fe919547789ce2a0beef1d75a1
+[episode]: https://www.icloud.com/shortcuts/06cb84380f1047e7b54c877d95f19a51
 [guide]: https://support.apple.com/sv-se/guide/shortcuts/welcome/ios
