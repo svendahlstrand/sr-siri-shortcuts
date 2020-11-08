@@ -11,11 +11,20 @@ https://sverigesradio.se/sida/gruppsida.aspx?programid=3756&grupp=10632
 ## Custom URL Scheme for Sveriges Radio Play
 
 By poking around a little, I found out that the Play app from Sveriges Radio
-supports a custom URL scheme. It works by passing the identifier for an episode
-or channel like this:
+supports a custom URL scheme. It works by passing a JSON object including the
+identifier for an episode or channel like this:
 
-`sesrplay://play/channel/203`
-`sesrplay://play/episode/203`
+```
+sesrplay://?json={"type":"playEpisodeById","withMusic":true,"episodeId":1559150}
+sesrplay://?json={"type":"playChannelById","channelId":203}
+```
+
+The URL encoded version looks like this:
+
+```
+sesrplay://?json=%7B%22type%22%3A%22playEpisodeById%22%2C%22withMusic%22%3Atrue%2C%22episodeId%22%3A1559150%7D
+sesrplay://?json=%7B%22type%22%3A%22playChannelById%22%2C%22channelId%22%3A203%7D
+```
 
 ## Importing Shortcuts by URL
 
