@@ -3,17 +3,17 @@
 
 all: bin/Spela\ Ekot.shortcut bin/Spela\ kanal.shortcut bin/Sök\ avsnitt.shortcut
 
-bin/Spela\ Ekot.shortcut: src/play-ekot.shortcut
+bin/Spela\ Ekot.shortcut: src/Spela\ Ekot.shortcut
 	mkdir -p bin/
 	cp "$<" "$@"
 	plutil -convert binary1 "$@"
 
-bin/Spela\ kanal.shortcut: src/play-channel.shortcut
+bin/Spela\ kanal.shortcut: src/Spela\ kanal.shortcut
 	mkdir -p bin/
 	cp "$<" "$@"
 	plutil -convert binary1 "$@"
 
-bin/Sök\ avsnitt.shortcut: src/search-episode.shortcut
+bin/Sök\ avsnitt.shortcut: src/Sök\ avsnitt.shortcut
 	mkdir -p bin/
 	cp "$<" "$@"
 	plutil -convert binary1 "$@"
